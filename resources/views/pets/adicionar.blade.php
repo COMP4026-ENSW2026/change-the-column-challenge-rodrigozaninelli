@@ -10,12 +10,19 @@ Adicionar novo pet:
     <input id="color" name="color" type="text" /> <br/>
 
     <label for="specie">Especie</label>
-    <input id="specie" name="specie" type="text" /> <br/>
+    <select name="specie" id="specie">
+        <option value="bunny">bunny</option>
+        <option value="dragao de komodo">dragão de komodo</option>
+        <option value="mamba">mamba negra</option>
+        <option value="dog">cachorro</option>
+    </select>
+
+
 
     <label for="size">Size</label>
     <select name="size" id="size">
         <option value="xs">XS</option>
-        <option value="sm">SM</option>
+        <option value="SM">SM</option>
         <option value="m">M</option>
         <option value="l">L</option>
         <option value="xl">XL</option>
